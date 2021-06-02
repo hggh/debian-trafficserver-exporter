@@ -1,0 +1,13 @@
+VERSION=0.2.0
+DEB_VERSION=1
+PACKAGE_NAME=trafficserver-exporter
+PROGRAM_NAME=trafficserver_exporter
+UPSTREAM_NAME=trafficserver_exporter
+EXTRA_INSTALL_DIRS=""
+URL=https://github.com/woopi12/trafficserver_exporter/releases/download/v${VERSION}/trafficserver_exporter_v${VERSION}-next_linux_amd64.tar.gz
+
+S3_REGION=eu-central-1
+S3_BUCKET=debian-repo.scireum.com
+CODENAME=focal
+ARCH=amd64
+REPO_KEY_ID=5698D140EB4A016F989E9EAB690D0D033D12C2EC

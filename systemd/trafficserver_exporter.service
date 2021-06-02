@@ -1,0 +1,9 @@
+[Unit]
+Description=TrafficServer Exporter
+
+[Service]
+EnvironmentFile=/etc/default/trafficserver_exporter
+ExecStart=/usr/bin/trafficserver_exporter $OPTIONS
+
+[Install]
+WantedBy=multi-user.target
