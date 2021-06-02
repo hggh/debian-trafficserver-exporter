@@ -1,5 +1,5 @@
 VERSION=0.2.0
-DEB_VERSION=1
+DEB_VERSION=2
 PACKAGE_NAME=trafficserver-exporter
 PROGRAM_NAME=trafficserver_exporter
 UPSTREAM_NAME=trafficserver_exporter
